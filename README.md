@@ -1,6 +1,6 @@
 # Seminários: PHP Tools
 
-##Introdução
+## Introdução
 
     O teste é uma importante parte do processo de criação de qualquer tipo de aplicação web, então é muito útil ter uma ferramenta própria para Debug de PHP. Essa ferramenta possibilita que o desenvolvedor
     procure por erros em seus códigos PHP sem comprometer a lógica do código ou o design da página.
