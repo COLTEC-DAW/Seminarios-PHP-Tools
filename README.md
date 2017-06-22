@@ -2,9 +2,21 @@
 
 ## Introdução
 
-    O teste é uma importante parte do processo de criação de qualquer tipo de aplicação web, então é muito útil ter uma ferramenta própria para Debug de PHP. Essa ferramenta possibilita que o desenvolvedor
-    procure por erros em seus códigos PHP sem comprometer a lógica do código ou o design da página.
+O Debug é uma importante parte do processo de criação de qualquer tipo de aplicação web, então é muito útil ter uma ferramenta própria para essa finalidade em PHP. Essa ferramenta possibilita que o desenvolvedor
+procure por erros em seus códigos PHP sem comprometer a lógica do código ou o design da página. O PHP Debug Bar é uma ferramenta bem documentada que funciona como um console que mostra mensagens que você precisar,
+como variáveis ou mensagens para procurar erros no seu código.
 
+## Instalação & Configuração
+
+1. **Composer** Para instalar o PHP Debug Bar, primeiro precisamos do ([Composer](https://getcomposer.org/)) para gerenciar nossas dependencias PHP.
+2. Depois de instalado, devemos colocar a debugbar como dependencia no arquivo **composer.json**. Ele vai ficar parecido com isso:
+    {
+        "require": {
+            "maximebf/debugbar": ">=1.0.0"
+        }
+    }
+    E executar o comando **composer install**
+3. 
 **Quantidade de alunos por grupo: 3**
 
 **Data: 27/06/2017**
