@@ -32,6 +32,6 @@ Outras ferramentas de mockup de dados:
 - [RubyForge](https://github.com/braintreeps/faker-ruby)
 - [forSQL Data Generator](http://forsql.com) 
  
-**_Link de consulta_**
+**_Links de consulta_**
 - https://stackoverflow.com/questions/591892/tools-for-generating-mock-data
 - http://wiki.c2.com/?TestDataGenerator
