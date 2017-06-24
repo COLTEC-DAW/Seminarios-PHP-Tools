@@ -8,5 +8,12 @@ Imagine que está montando um sistema de login de uma nova rede social, e que, p
 Para isso que serve o Faker: ele gera dados aleatórios para que você não precise gastar tempo criando você mesmo.
 
 ## 2. **Instalação & Configuração:**
+
+- a
+- b
+- c
+
+Todas as informações estão nesse link: [https://github.com/fzaninotto/Faker]
+
 ## 3. **Getting Started:**
 ## 4. **Ferramentas similares:**
