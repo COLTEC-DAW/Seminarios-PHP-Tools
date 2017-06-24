@@ -23,10 +23,15 @@ Todas as informações estão nesse link: https://github.com/fzaninotto/Faker
 
 Outras ferramentas de mockup de dados:
 
-**Aplicativos Web**
+**Aplicativos Web/Desktop**
 - [GenerateData](http://generatedata.com)
-- [Mockaroo](http://www.mockaroo.com)
-- 
-- https://github.com/braintreeps/faker-ruby
+- [Mockaroo](http://www.mockaroo.com) 
+- [Datanamic Data Generator MultiDB](http://www.datanamic.com/datagenerator/index.html)
+
+**Ferramentas programáveis**
+- [RubyForge](https://github.com/braintreeps/faker-ruby)
+- [forSQL Data Generator](http://forsql.com) 
  
-[Link de consulta](https://stackoverflow.com/questions/591892/tools-for-generating-mock-data)
+**_Link de consulta_**
+- https://stackoverflow.com/questions/591892/tools-for-generating-mock-data
+- http://wiki.c2.com/?TestDataGenerator
