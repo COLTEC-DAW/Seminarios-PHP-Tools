@@ -1,50 +1,10 @@
-# Seminários: PHP Tools
+# Faker: Mockup de dados
 
-**Quantidade de alunos por grupo: 3**
+***Integrantes do grupo:*** **Eduardo Fernandes, Gustavo de Paula e Lucas Macedo**
 
-**Data: 20/06/2017**
-
-**Valor: 7 pontos**
-
-Esse seminários tem como objetivo apresentar aos colegas de turma as ferramentas existentes para o desenvolvimento de sistemas web, com foco em PHP. O seu grupo deverá escolher um dos seguintes temas abaixo:
-
-- Gerenciador de Dependências ([Composer](https://getcomposer.org/))
-- Debugging ([PHP Debug Bar](http://phpdebugbar.com/))
-- Bibliotecas de Teste ([PHPUnit](https://phpunit.de/))
-- Mockup de dados ([Faker](https://github.com/fzaninotto/Faker)) -> Gustavo, Eduardo e Lucas Macedo
-
-O trabalho de seu grupo deverá ser dividido em duas partes: Roteiro e Apresentação
-
-## Roteiro
-
-O roteiro deverá ser composto de um arquivo `README.md` descrevendo o tópico selecionado. Seu roteiro deverá ter, **obrigatóriamente**, as seguintes seções:
-
-1. **Introdução:** Essa seção deverá introduzir os conceitos do assunto que seu grupo irá abordar. Você deverá mostrar o problema e como a ferramenta se propõe a resolver esse problema.
-2. **Instalação & Configuração:** Nessa seção seu grupo deverá mostrar os passos necessários para instalar e configurar a ferramenta.
-3. **Getting Started:** Aqui seu grupo deverá elaborar um pequeno tutorial de uso exemplificando como a ferramenta poderá ser utilizada no desenvolvimento de uma aplicação web. Vocês deverão mostrar passo a passo como utilizar a ferramenta no desenvolvimento de uma aplicação web do mundo real.
-4. **Ferramentas similares:** Liste pelo menos três ferramentas que também lidam com o tópico selecionado. Se não encontrar algo similar em PHP procure em outras linguagens (Java, C#, JavaScript, etc.). Fale resumidamente cada uma dessas bibliotecas e referencie para sua página principal.
-
-*OBS: Sinta-se a vontade para adicionar outras seções no documento da forma que você achar conveniente.* 
-
-## Apresentação
-
-Você deverá realizar para a turma uma apresentação entre 10 e 15 minutos sobre o tópico pesquisado pelo seu grupo. Sua apresentação deverá representar uma síntese do que está descrito no roteiro.
-
-Segue alguns critérios que serão avaliados na apresentação (lista não exaustiva):
-
-* Tempo de apresentação
-* Organização
-* Participação individual
-* Profundidade
-
-## Formato de Entrega
-
-Seu grupo deverá fazer um fork desse repositório. Esse fork deverá conter o arquivo `README.md` referente ao roteiro escrito pelo grupo, junto dos slides que serão utilizados na apresentação.
-
-## Escolha do Tema
-
-O grupo poderá selecionar seu tema fazendo um pull request desse repositório e adicionar o nome de seus integrantes após o tópico selecionado. Os temas serão atribuidos por ordem de pull-request.
-
-## Montagem dos Grupos
-
-Os grupos deverão, **obrigatóriamente**, ser compostos por alunos das duas extintas subturmas (103 e 106).
+## 1. **Introdução:**
+    Imagine que está montando um sistema de login de uma nova rede social, e que, para testar uma funcionalidade que implementou, são necessários 50 membros cadastrados. Fazer isso na mão não é nada efetivo, concorda?
+    Para isso que serve o Faker: ele gera dados aleatórios para que você não precise gastar tempo criando você mesmo.
+## 2. **Instalação & Configuração:**
+## 3. **Getting Started:**
+## 4. **Ferramentas similares:**
