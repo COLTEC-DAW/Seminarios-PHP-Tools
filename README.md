@@ -11,11 +11,9 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/edit/master/Tutoria
 
 ## 2. **Instalação & Configuração:**
 
-1. Baixe o repositório do [Faker]();
+1. Baixe o repositório do [Faker](https://github.com/fzaninotto/Faker);
 2. b
 3. c
-
-Todas as informações estão nesse link: https://github.com/fzaninotto/Faker
 
 ## 3. **Getting Started:**
 
