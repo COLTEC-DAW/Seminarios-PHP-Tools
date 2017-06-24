@@ -9,9 +9,9 @@ Para isso que serve o Faker: ele gera dados aleatórios para que você não prec
 
 ## 2. **Instalação & Configuração:**
 
-1. a
-2. b
-3. c
+**1.** a
+**2.** b
+**3.** c
 
 Todas as informações estão nesse link: https://github.com/fzaninotto/Faker
 
