@@ -24,9 +24,9 @@ Todas as informações estão nesse link: https://github.com/fzaninotto/Faker
 Outras ferramentas de mockup de dados:
 
 **Aplicativos Web**
-- [GenerateData] (http://generatedata.com)
-- [Mockaroo] (http://www.mockaroo.com)
+- [GenerateData](http://generatedata.com)
+- [Mockaroo](http://www.mockaroo.com)
 - 
-- 
+- https://github.com/braintreeps/faker-ruby
  
-[Link de consulta] (https://stackoverflow.com/questions/591892/tools-for-generating-mock-data)
+[Link de consulta](https://stackoverflow.com/questions/591892/tools-for-generating-mock-data)
