@@ -13,7 +13,20 @@ Para isso que serve o Faker: ele gera dados aleatórios para que você não prec
 - b
 - c
 
-Todas as informações estão nesse link: [https://github.com/fzaninotto/Faker]
+Todas as informações estão nesse link: https://github.com/fzaninotto/Faker
 
 ## 3. **Getting Started:**
+
+
+
 ## 4. **Ferramentas similares:**
+
+Outras ferramentas de mockup de dados:
+
+**Aplicativos Web**
+- [GenerateData] (http://generatedata.com)
+- [Mockaroo] (http://www.mockaroo.com)
+- 
+- 
+ 
+[Link de consulta] (https://stackoverflow.com/questions/591892/tools-for-generating-mock-data)
