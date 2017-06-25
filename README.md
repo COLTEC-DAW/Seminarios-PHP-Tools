@@ -52,7 +52,9 @@ O código acima é um exemplo que renderiza a barra de debug e mostra uma mensag
 
 A ferramenta possui 5 abas principais, sendo elas **Messages**, **Request**, **Timeline**, **Exceptions** e **Database**.
 
-A primeira, Messages, apresenta 
+A primeira, Messages, apresenta mensagens que você quiser mostrar (como um printf no C), como variáveis e strings, como no exemplo acima.
+
+A segunda, Request, apresenta os detalhes da requisição que foi feita para aquela página, com os detalhes das variáveis **$_GET, $_POST, $_COOKIE** e **$_SERVER**.
 
 
 **Quantidade de alunos por grupo: 3**
