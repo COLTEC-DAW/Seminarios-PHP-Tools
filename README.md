@@ -21,13 +21,12 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/edit/master/Tutoria
 1. Baixar e instalar com os comandos:
 2. $ wget https://github.com/bit3/faker-cli/releases/download/1.4/faker.phar
 3. $ chmod 777 faker.phar
+
+4. Usar
+	- Nome: $ ./faker.phar name
+	- So on
 	
--> Usar
-	-> Nome: $ ./faker.phar name
-	-> So on
-	
--> Extensa lista de parâmetros:
-	-> https://github.com/bit3/faker-cli
+- Extensa lista de parâmetros: https://github.com/bit3/faker-cli
 
 [Tutorial no YouTube](https://www.youtube.com/watch?v=sSDh1zfz-5s)
 
