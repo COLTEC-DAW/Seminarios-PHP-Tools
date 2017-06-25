@@ -2,21 +2,59 @@
 
 ## Introdução
 
-O Debug é uma importante parte do processo de criação de qualquer tipo de aplicação web, então é muito útil ter uma ferramenta própria para essa finalidade em PHP. Essa ferramenta possibilita que o desenvolvedor
-procure por erros em seus códigos PHP sem comprometer a lógica do código ou o design da página. O PHP Debug Bar é uma ferramenta bem documentada que funciona como um console que mostra mensagens que você precisar,
-como variáveis ou mensagens para procurar erros no seu código.
+O Debug é parte importante do processo de criação de qualquer tipo de aplicação web, então é muito útil ter uma ferramenta funcional e própria para essa finalidade em PHP. Essa ferramenta possibilita que o desenvolvedor procure por erros em seus códigos PHP sem comprometer a lógica do código ou o design da página. O PHP Debug Bar é uma ferramenta bem documentada que funciona como um console - de design simpático e minimalista - que mostra mensagens que você precisar, como variáveis ou mensagens para procurar erros no seu código.
 
 ## Instalação & Configuração
 
-1. **Composer** Para instalar o PHP Debug Bar, primeiro precisamos do ([Composer](https://getcomposer.org/)) para gerenciar nossas dependencias PHP.
-2. Depois de instalado, devemos colocar a debugbar como dependencia no arquivo **composer.json**. Ele vai ficar parecido com isso:
+1. **Composer** Para instalar o PHP Debug Bar em sistema operacional Windows, primeiro precisamos do utilitário ([Composer](https://getcomposer.org/)) para gerenciar nossas dependências PHP.
+2. Para que seja feita a instalação no projeto, deve-se criar um arquivo **composer.json** no mesmo diretório. Depois de criado, devemos especificar a debugbar como dependência no arquivo. Ele deverá ficar parecido com isso:
+    ```
     {
         "require": {
             "maximebf/debugbar": ">=1.0.0"
         }
     }
-    E executar o comando **composer install**
-3. 
+    ```
+3. Feito, deve-se executar o comando **composer install para php**:
+    $ php composer.phar install
+
+    - Caso não exista um arquivo com esse nome na sua pasta, é possível fazer o download no site oficial do ([Composer](https://getcomposer.org/)).
+
+## Getting Started
+
+Para utilizar a ferramenta, é preciso importá-la nos códigos php do seu projeto, lembrando que pelo design pattern **Don’t Repeat Yourself (DRY)
+**, a melhor forma de fazer isso é apenas incluir o código, e não copiá-lo em todos os usos):
+
+    ```
+    <?php
+
+    require('vendor/autoload.php');
+
+    use DebugBar\StandardDebugBar;
+
+    $debugbar = new StandardDebugBar();
+    $debugbarRenderer = $debugbar->getJavascriptRenderer();
+
+    $debugbar["messages"]->addMessage("hello world!");
+    ?>
+    <html>
+        <head>
+            <?php echo $debugbarRenderer->renderHead() ?>
+        </head>
+        <body>
+            ...
+            <?php echo $debugbarRenderer->render() ?>
+        </body>
+    </html>
+    ```
+
+O código acima é um exemplo que renderiza a barra de debug e mostra uma mensagem.
+
+A ferramenta possui 5 abas principais, sendo elas **Messages**, **Request**, **Timeline**, **Exceptions** e **Database**.
+
+A primeira, Messages, apresenta 
+
+
 **Quantidade de alunos por grupo: 3**
 
 **Data: 27/06/2017**
