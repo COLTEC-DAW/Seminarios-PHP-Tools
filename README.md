@@ -56,53 +56,21 @@ A primeira, Messages, apresenta mensagens que você quiser mostrar (como um prin
 
 A segunda, Request, apresenta os detalhes da requisição que foi feita para aquela página, com os detalhes das variáveis **$_GET, $_POST, $_COOKIE** e **$_SERVER**.
 
+A terceira, Timeline, mostra o que aconteceu na sua página com o passar do tempo.
 
-**Quantidade de alunos por grupo: 3**
+A quarta, Exceptions, mostra os erros "pegados" pelo seu código, como num trecho com "try catch", no qual você "pega" uma exceção caso um erro aconteça.
 
-**Data: 27/06/2017**
+A última, Database, se trata de informações sobre o banco de dados que o php está tratando, mostrando todos os comandos de teste feitos e dizendo quais comandos deram certo e quais comandos não funcionaram por algum motivo.
 
-**Valor: 7 pontos**
+Com todas essas possibilidades, uma aplicação web em php de grande porte tem uma grande organização quanto a visualização do que está acontecendo na página, quanto às requisições, cookies, variáveis, erros e o banco de dados. Essa ferramenta traz uma possibilidade de realmente debugar e testar sua aplicação web com bastante organização e bem facilmente.
 
-Esse seminários tem como objetivo apresentar aos colegas de turma as ferramentas existentes para o desenvolvimento de sistemas web, com foco em PHP. O seu grupo deverá escolher um dos seguintes temas abaixo:
+## Ferramentas Similares
 
-- Gerenciador de Dependências ([Composer](https://getcomposer.org/)) -> **Ananda, Carol e Clarisse**
-- Bibliotecas de Teste ([PHPUnit](https://phpunit.de/)) -> **Victor, Raul e Francisco**
-- Debugging ([PHP Debug Bar](http://phpdebugbar.com/)) -> **Wender, Matheus e Paulo**
-- Mockup de dados ([Faker](https://github.com/fzaninotto/Faker)) -> **Gustavo, Eduardo e Lucas Macedo**
-- Ambientes virtuais de desenvolvimento ([Vagrant](https://www.vagrantup.com/)) -> **Lucas Paulo, Arthur e Ping**
+1. **PHP MD**
+- ([PHP Mess Detector](https://phpmd.org/)) é uma ferramenta "user friendly" e fácil de configurar que procura por possíveis problemas no código fonte inserido, erros esses como possiveis bugs, código não-otimizado, expressões complicadas demais e variáveis não utilizadas.
 
-O trabalho de seu grupo deverá ser dividido em duas partes: Roteiro e Apresentação
+2. **Kint**
+- ([Kint](https://github.com/kint-php/kint)) é uma ferramenta que tem como proposta mostrar a informação de debug da maneira mais limpa o possível, basicamente um "var_dump() e debug_backtrace() com esteroides".
 
-## Roteiro
-
-O roteiro deverá ser composto de um arquivo `README.md` descrevendo o tópico selecionado. Seu roteiro deverá ter, **obrigatóriamente**, as seguintes seções:
-
-1. **Introdução:** Essa seção deverá introduzir os conceitos do assunto que seu grupo irá abordar. Você deverá mostrar o problema e como a ferramenta se propõe a resolver esse problema.
-2. **Instalação & Configuração:** Nessa seção seu grupo deverá mostrar os passos necessários para instalar e configurar a ferramenta.
-3. **Getting Started:** Aqui seu grupo deverá elaborar um pequeno tutorial de uso exemplificando como a ferramenta poderá ser utilizada no desenvolvimento de uma aplicação web. Vocês deverão mostrar passo a passo como utilizar a ferramenta no desenvolvimento de uma aplicação web do mundo real.
-4. **Ferramentas similares:** Liste pelo menos três ferramentas que também lidam com o tópico selecionado. Se não encontrar algo similar em PHP procure em outras linguagens (Java, C#, JavaScript, etc.). Fale resumidamente cada uma dessas bibliotecas e referencie para sua página principal.
-
-*OBS: Sinta-se a vontade para adicionar outras seções no documento da forma que você achar conveniente.* 
-
-## Apresentação
-
-Você deverá realizar para a turma uma apresentação entre 10 e 15 minutos sobre o tópico pesquisado pelo seu grupo. Sua apresentação deverá representar uma síntese do que está descrito no roteiro.
-
-Segue alguns critérios que serão avaliados na apresentação (lista não exaustiva):
-
-* Tempo de apresentação
-* Organização
-* Participação individual
-* Profundidade
-
-## Formato de Entrega
-
-Seu grupo deverá fazer um fork desse repositório. Esse fork deverá conter o arquivo `README.md` referente ao roteiro escrito pelo grupo, junto dos slides que serão utilizados na apresentação.
-
-## Escolha do Tema
-
-O grupo poderá selecionar seu tema fazendo um pull request desse repositório e adicionar o nome de seus integrantes após o tópico selecionado. Os temas serão atribuidos por ordem de pull-request.
-
-## Montagem dos Grupos
-
-Os grupos deverão, **obrigatóriamente**, ser compostos por alunos das duas extintas subturmas (103 e 106).
+3. **Krumo**
+- ([Krumo](https://xdebug.org/index.php)) é uma ferramenta que literalmente se diz uma reposição de "print_r() e var_dump()". Sua função é mostrar informação estruturada sobre qualquer variável PHP.
