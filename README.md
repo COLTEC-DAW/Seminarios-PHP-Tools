@@ -6,6 +6,8 @@ Lucas Paulo Martins Mariz
 
 Fernando Ping
 
+Veja nossa apresentação aqui: https://www.dropbox.com/sh/0xsrcro26apx01w/AAAb_5k3lzD5VyowBIWtW_p5a?dl=0
+
 **O que é o Vagrant?**
 
 *Vagrant é uma ferramenta que permite a criação de um ambiente virtual
