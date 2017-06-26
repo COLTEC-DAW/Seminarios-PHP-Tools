@@ -13,11 +13,11 @@ A instalação dos pacotes é feita por projeto e, por default, nada é instalad
 
 ## 2. Instalação e configuração
 ### 2.1 Windows
-##### Baixando o executável:
+#### Baixando o executável:
 Faça o download no seguinte link: [Download](https://getcomposer.org/Composer-Setup.exe).
 Com esse download, terá acesso à última versão do Composer. Dessa forma, é possível executar o Composer de qualquer diretório do seu computador.
 
-##### Usando o terminal:
+#### Usando o terminal:
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -42,7 +42,7 @@ O script segue a seguinte ordem:
     4. Remoção do instalador.
 
 ### 2.2 Linux/Unix/OSX
-##### Baixando o executável:
+#### Baixando o executável:
 Fazendo o download do executável através do link: [Download](https://getcomposer.org/installer).
 
 A instalação por meio de linha de comando é igual à descrita para o Windows. Agora, apenas execute:
@@ -53,7 +53,7 @@ Você pode instalar o Composer em um diretório específico usando  `--install-d
 
 Agora, apenas execute `php bin/composer` para executar o Composer.
 
-##### Globalmente:
+#### Globalmente:
 Pode colocar o Composer PHAR em qualquer lugar que desejar. Depois de executar o instalador seguindo as instruções da página de download, você pode executar isso para mover composer.phar para um diretório que está no seu caminho:
 `mv composer.phar /usr/local/bin/composer`
 
