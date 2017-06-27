@@ -7,7 +7,7 @@
 Imagine que está montando um sistema de login de uma nova rede social, e que, para testar uma funcionalidade que implementou, são necessários 50 membros cadastrados. Fazer isso na mão não é nada efetivo, concorda?
 Para isso que serve o Faker: ele gera dados aleatórios para que você não precise gastar tempo criando você mesmo.
 
-https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/edit/master/Tutorial.txt
+https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/Tutorial.txt
 
 ## 2. **Instalação & Configuração:**
 
@@ -32,7 +32,7 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/edit/master/Tutoria
 
 ## 3. **Getting Started:**
 
-[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/Tutoorial.txt)
+[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools)
 
 ## 4. **Ferramentas similares:**
 
