@@ -15,7 +15,7 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/Tutoria
 2. Importar o arquivo 'autoload.php' no seu código PHP, que se encontra dentro da pasta 'src' da pasta do repositório do Faker;
 3. Criar instância do Faker;
 4. Acessar atributos da instância do Faker referentes à função que deseja;
-5. Vide 'index.php';
+5. Vide ['index.php'](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/index.php);
 
 ***FAKER CLT (Command Line Tool)***
 1. Baixar e instalar com os comandos:
