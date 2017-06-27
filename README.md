@@ -2,6 +2,8 @@
 
 **Integrantes do grupo:** Eduardo Fernandes, Gustavo de Paula e Lucas Macedo
 
+**Apresentação de slides:** https://docs.google.com/presentation/d/1lizwYn7r-WAvLidRSQJNAU3iaCrsRjUdQ65pOW31-Ds/edit?usp=sharing
+
 ## 1. **Introdução:**
 
 Imagine que está montando um sistema de login de uma nova rede social, e que, para testar uma funcionalidade que implementou, são necessários 50 membros cadastrados. Fazer isso na mão não é nada efetivo, concorda?
