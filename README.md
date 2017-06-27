@@ -32,7 +32,7 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/edit/master/Tutoria
 
 ## 3. **Getting Started:**
 
-[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/README%20Infinito.md)
+[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/Tutoorial.txt)
 
 ## 4. **Ferramentas similares:**
 
