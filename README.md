@@ -34,7 +34,7 @@ https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/Tutoria
 
 ## 3. **Getting Started:**
 
-[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools)
+[Link do README com o exemplo implementado pelo grupo](https://github.com/EduardoFernandes1410/Seminarios-PHP-Tools/blob/master/Tutorial.txt)
 
 ## 4. **Ferramentas similares:**
 
